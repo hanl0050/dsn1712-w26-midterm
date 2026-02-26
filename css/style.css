@@ -28,7 +28,7 @@ nav a:hover {
 
 h1 {
     font-family: 'Cormorant Garamond';
-    font-size: 64px;
+    font-size: 55px;
     color: #c6a85b;
     text-align: center;
     margin-top: 80px;
@@ -36,11 +36,11 @@ h1 {
     text-transform: uppercase;
 }
 
-#h2 {
+h2 {
     font-family: 'Montserrat';
     font-size: 14px;
     color: #9aa0a6;
-    text-align: center;
+    text-align: left;
     text-transform: none;
     margin-top: 40px;
     margin-bottom: 60px;
@@ -57,8 +57,9 @@ h3 {
 }
 
 p {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 20px;
+
 }
 
 blockquote {
@@ -67,7 +68,7 @@ blockquote {
 }
 
 blockquote p {
-    font-size: 24px;
+    font-size: 20px;
     color: #c6a85b;
     font-style: italic;
     text-align: center;
@@ -75,7 +76,7 @@ blockquote p {
 
 ul {
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 40px; 
 }
 
 li {
@@ -89,8 +90,12 @@ li {
     margin-bottom: 40px;
 }
 
-.hero img {
+.hero-img {
     width: 100%;
+}
+
+#section-hero {
+    text-align: center;
 }
 
 section {
